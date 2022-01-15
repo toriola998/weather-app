@@ -69,3 +69,29 @@ h1,
 .info2 p {
     margin-bottom: 1rem;
 }
+
+
+@media screen and (min-width: 620px) {
+    body {
+        padding: 2.5rem;
+    }
+
+    header,
+    .info-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-wrap {
+        margin: unset;
+        width: unset;
+    }
+
+    .info-wrap {
+        margin-top: 7rem;
+    }
+
+    .info2 {
+        width: 40vw;
+    }
+}

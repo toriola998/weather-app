@@ -93,5 +93,36 @@ h1,
 
     .info2 {
         width: 40vw;
+        padding: 2rem 3rem;
+    }
+
+    .info2 p {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    body {
+        padding: 2.5rem 6rem;
+    }
+
+    .info1 h1 {
+        margin-bottom: 2rem;
+        font-size: 2.7rem;
+    }
+
+    .info2 {
+        width: 450px;
+    } 
+
+    .input-wrap {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        max-width: 1320px;
+        margin: auto;
     }
 }

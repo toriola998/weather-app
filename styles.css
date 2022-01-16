@@ -78,13 +78,14 @@ h1,
     z-index: 999;
     position: fixed;  
     height: 100vh; 
-    display: flex;
+    display: flex;  /*changes to display with flex with javascript*/
     justify-content: center;
     align-items: center;
     background: linear-gradient(225deg, 
     hsla(148, 89%, 78%, 1) 1%, 
     hsla(173, 30%, 49%, 1) 53%, 
     hsla(210, 81%, 22%, 1) 100%);
+    
 }
 
 .error-page p,
@@ -111,6 +112,11 @@ h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     outline: none;
+    cursor: pointer;
+}
+
+.error-page button:hover {
+    transform: scale(0.9);
 }
 
 @media screen and (min-width: 620px) {

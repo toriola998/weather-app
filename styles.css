@@ -70,6 +70,48 @@ h1,
     margin-bottom: 1rem;
 }
 
+.error-page {
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    position: fixed;  
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(225deg, 
+    hsla(148, 89%, 78%, 1) 1%, 
+    hsla(173, 30%, 49%, 1) 53%, 
+    hsla(210, 81%, 22%, 1) 100%);
+}
+
+.error-page p,
+h2 {
+    text-align: center;
+}
+
+.oops {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+.error-page button {
+    display: block;
+    margin: 1.5rem auto 0;
+    background-color: #0B3866;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
 
 @media screen and (min-width: 620px) {
     body {
@@ -117,6 +159,18 @@ h1,
 
     .input-wrap {
         width: 300px;
+    }
+
+    .oops {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 8rem;
     }
 }
 

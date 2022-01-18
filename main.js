@@ -12,8 +12,7 @@ async function showCity() {
         renderCityDetails(res);
     } else {
        showErrorPage();
-    }
-       
+    }      
 }
 
 //WHEN I CLICK ON ENTER KEY TO SEARCH FOR CITY DETAILS
@@ -69,4 +68,4 @@ function backToHomepage() {
     })
 }
 
-backToHomepage()
+backToHomepage();
